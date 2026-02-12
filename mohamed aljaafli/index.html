@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+
+<body>
+
+    <center>
+        <h1>Application Form</h1>
+        <h3>Annual Competition for nawaf3mk</h3>
+
+        <form method="post" enctype="multipart/form-data">
+
+            <label>First Name</label><br>
+            <input type="text" name="first_name" required><br><br>
+
+            <label>Last Name</label><br>
+            <input type="text" name="last_name" required><br><br>
+
+            <label>Email</label><br>
+            <input type="email" name="email" required><br><br>
+
+            <label>Birth Date</label><br>
+            <input type="date" name="birthdate" required><br><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label>Age</label><br>
+            <input type="number" name="age" min="10" max="100" required><br><br>
+
+            <label>Upload Image</label><br>
+            <input type="file" name="myimage" accept="image/*" required><br><br>
+
+            <label>Rate Us (from 1 to 10)</label><br>
+            <input type="range" name="rate" min="1" max="10" value="5"><br><br>
+
+            <input type="submit" value="Submit Application">
+
+        </form>
+    </center>
+
+</body>
+
+</html>
